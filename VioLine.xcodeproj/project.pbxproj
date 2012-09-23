@@ -1,0 +1,397 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1D3623260D0F684500981E51 /* DemoAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D3623250D0F684500981E51 /* DemoAppDelegate.m */; };
+		1D60589B0D05DD56006BFB54 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; };
+		1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D30AB110D05D00D00671497 /* Foundation.framework */; };
+		1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DF5F4DF0D08C38300B7A737 /* UIKit.framework */; };
+		288765A50DF7441C002DB57D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 288765A40DF7441C002DB57D /* CoreGraphics.framework */; };
+		28D7ACF80DDB3853001CB0EB /* DemoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28D7ACF70DDB3853001CB0EB /* DemoViewController.m */; };
+		7BAA29921212690D00BF4296 /* OpenAL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7BAA29911212690D00BF4296 /* OpenAL.framework */; };
+		7BAA29961212691700BF4296 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7BAA29951212691700BF4296 /* AudioToolbox.framework */; };
+		7BAA29DA12126BFA00BF4296 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7BAA29D912126BFA00BF4296 /* QuartzCore.framework */; };
+		7BACBAB71211DE80005E8F00 /* OpenALSupport.c in Sources */ = {isa = PBXBuildFile; fileRef = 7BACBAB31211DE80005E8F00 /* OpenALSupport.c */; };
+		7BACBAB81211DE80005E8F00 /* SoundBankPlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BACBAB61211DE80005E8F00 /* SoundBankPlayer.m */; };
+		970B231C152C9152005D73FA /* bg.png in Resources */ = {isa = PBXBuildFile; fileRef = 970B231A152C9152005D73FA /* bg.png */; };
+		970B231D152C9152005D73FA /* bg@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 970B231B152C9152005D73FA /* bg@2x.png */; };
+		970B2331152C9690005D73FA /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 970B2330152C9690005D73FA /* MainWindow.xib */; };
+		970B2333152C96D5005D73FA /* DemoViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 970B2332152C96D5005D73FA /* DemoViewController.xib */; };
+		971FA15D152A31BA00C5C018 /* MusicologyView.m in Sources */ = {isa = PBXBuildFile; fileRef = 971FA15C152A31BA00C5C018 /* MusicologyView.m */; };
+		972F9CCE152DE26800374043 /* violin-c3.caf in Resources */ = {isa = PBXBuildFile; fileRef = 972F9CC6152DE26800374043 /* violin-c3.caf */; };
+		972F9CCF152DE26800374043 /* violin-c4.caf in Resources */ = {isa = PBXBuildFile; fileRef = 972F9CC7152DE26800374043 /* violin-c4.caf */; };
+		972F9CD0152DE26800374043 /* violin-c5.caf in Resources */ = {isa = PBXBuildFile; fileRef = 972F9CC8152DE26800374043 /* violin-c5.caf */; };
+		972F9CD1152DE26800374043 /* violin-f3.caf in Resources */ = {isa = PBXBuildFile; fileRef = 972F9CC9152DE26800374043 /* violin-f3.caf */; };
+		972F9CD2152DE26800374043 /* violin-f4.caf in Resources */ = {isa = PBXBuildFile; fileRef = 972F9CCA152DE26800374043 /* violin-f4.caf */; };
+		972F9CD4152DE26800374043 /* violin-g2.caf in Resources */ = {isa = PBXBuildFile; fileRef = 972F9CCC152DE26800374043 /* violin-g2.caf */; };
+		972F9CE0152DEB9900374043 /* violin-f5.caf in Resources */ = {isa = PBXBuildFile; fileRef = 972F9CDF152DEB9900374043 /* violin-f5.caf */; };
+		976D391C15304BF600F14D6F /* logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 976D391B15304BF600F14D6F /* logo.png */; };
+		97CF143F1527AC06005F089C /* Violin.plist in Resources */ = {isa = PBXBuildFile; fileRef = 97CF143B1527AC06005F089C /* Violin.plist */; };
+		97F27274152A5C17004CDD02 /* Icon-72.png in Resources */ = {isa = PBXBuildFile; fileRef = 97F2726E152A5C17004CDD02 /* Icon-72.png */; };
+		97F27275152A5C17004CDD02 /* Icon-Small-50.png in Resources */ = {isa = PBXBuildFile; fileRef = 97F2726F152A5C17004CDD02 /* Icon-Small-50.png */; };
+		97F27276152A5C17004CDD02 /* Icon-Small.png in Resources */ = {isa = PBXBuildFile; fileRef = 97F27270152A5C17004CDD02 /* Icon-Small.png */; };
+		97F27277152A5C17004CDD02 /* Icon-Small@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 97F27271152A5C17004CDD02 /* Icon-Small@2x.png */; };
+		97F27278152A5C17004CDD02 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 97F27272152A5C17004CDD02 /* Icon.png */; };
+		97F27279152A5C17004CDD02 /* Icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 97F27273152A5C17004CDD02 /* Icon@2x.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1D30AB110D05D00D00671497 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		1D3623240D0F684500981E51 /* DemoAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DemoAppDelegate.h; sourceTree = "<group>"; };
+		1D3623250D0F684500981E51 /* DemoAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DemoAppDelegate.m; sourceTree = "<group>"; };
+		1D6058910D05DD3D006BFB54 /* VioLine.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VioLine.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1DF5F4DF0D08C38300B7A737 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		288765A40DF7441C002DB57D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		28D7ACF60DDB3853001CB0EB /* DemoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DemoViewController.h; sourceTree = "<group>"; };
+		28D7ACF70DDB3853001CB0EB /* DemoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DemoViewController.m; sourceTree = "<group>"; };
+		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		32CA4F630368D1EE00C91783 /* VioLine_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VioLine_Prefix.pch; sourceTree = "<group>"; };
+		7BAA29911212690D00BF4296 /* OpenAL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenAL.framework; path = System/Library/Frameworks/OpenAL.framework; sourceTree = SDKROOT; };
+		7BAA29951212691700BF4296 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		7BAA29D912126BFA00BF4296 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		7BACBAB31211DE80005E8F00 /* OpenALSupport.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = OpenALSupport.c; sourceTree = "<group>"; };
+		7BACBAB41211DE80005E8F00 /* OpenALSupport.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OpenALSupport.h; sourceTree = "<group>"; };
+		7BACBAB51211DE80005E8F00 /* SoundBankPlayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SoundBankPlayer.h; sourceTree = "<group>"; };
+		7BACBAB61211DE80005E8F00 /* SoundBankPlayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SoundBankPlayer.m; sourceTree = "<group>"; };
+		8D1107310486CEB800E47090 /* VioLine-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "VioLine-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
+		970B231A152C9152005D73FA /* bg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bg.png; sourceTree = "<group>"; };
+		970B231B152C9152005D73FA /* bg@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bg@2x.png"; sourceTree = "<group>"; };
+		970B2330152C9690005D73FA /* MainWindow.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainWindow.xib; sourceTree = "<group>"; };
+		970B2332152C96D5005D73FA /* DemoViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DemoViewController.xib; sourceTree = "<group>"; };
+		971FA15B152A31BA00C5C018 /* MusicologyView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MusicologyView.h; sourceTree = "<group>"; };
+		971FA15C152A31BA00C5C018 /* MusicologyView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MusicologyView.m; sourceTree = "<group>"; };
+		972F9CC6152DE26800374043 /* violin-c3.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "violin-c3.caf"; sourceTree = "<group>"; };
+		972F9CC7152DE26800374043 /* violin-c4.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "violin-c4.caf"; sourceTree = "<group>"; };
+		972F9CC8152DE26800374043 /* violin-c5.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "violin-c5.caf"; sourceTree = "<group>"; };
+		972F9CC9152DE26800374043 /* violin-f3.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "violin-f3.caf"; sourceTree = "<group>"; };
+		972F9CCA152DE26800374043 /* violin-f4.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "violin-f4.caf"; sourceTree = "<group>"; };
+		972F9CCC152DE26800374043 /* violin-g2.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "violin-g2.caf"; sourceTree = "<group>"; };
+		972F9CDF152DEB9900374043 /* violin-f5.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "violin-f5.caf"; sourceTree = "<group>"; };
+		976D391B15304BF600F14D6F /* logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo.png; sourceTree = "<group>"; };
+		97CF143B1527AC06005F089C /* Violin.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Violin.plist; sourceTree = "<group>"; };
+		97F2726E152A5C17004CDD02 /* Icon-72.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-72.png"; sourceTree = "<group>"; };
+		97F2726F152A5C17004CDD02 /* Icon-Small-50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-Small-50.png"; sourceTree = "<group>"; };
+		97F27270152A5C17004CDD02 /* Icon-Small.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-Small.png"; sourceTree = "<group>"; };
+		97F27271152A5C17004CDD02 /* Icon-Small@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-Small@2x.png"; sourceTree = "<group>"; };
+		97F27272152A5C17004CDD02 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
+		97F27273152A5C17004CDD02 /* Icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon@2x.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1D60588F0D05DD3D006BFB54 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */,
+				1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */,
+				288765A50DF7441C002DB57D /* CoreGraphics.framework in Frameworks */,
+				7BAA29921212690D00BF4296 /* OpenAL.framework in Frameworks */,
+				7BAA29961212691700BF4296 /* AudioToolbox.framework in Frameworks */,
+				7BAA29DA12126BFA00BF4296 /* QuartzCore.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		080E96DDFE201D6D7F000001 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				7BACBAB51211DE80005E8F00 /* SoundBankPlayer.h */,
+				7BACBAB61211DE80005E8F00 /* SoundBankPlayer.m */,
+				7BACBAB41211DE80005E8F00 /* OpenALSupport.h */,
+				7BACBAB31211DE80005E8F00 /* OpenALSupport.c */,
+				1D3623240D0F684500981E51 /* DemoAppDelegate.h */,
+				1D3623250D0F684500981E51 /* DemoAppDelegate.m */,
+				28D7ACF60DDB3853001CB0EB /* DemoViewController.h */,
+				28D7ACF70DDB3853001CB0EB /* DemoViewController.m */,
+				971FA15B152A31BA00C5C018 /* MusicologyView.h */,
+				971FA15C152A31BA00C5C018 /* MusicologyView.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		19C28FACFE9D520D11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1D6058910D05DD3D006BFB54 /* VioLine.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		29B97314FDCFA39411CA2CEA /* CustomTemplate */ = {
+			isa = PBXGroup;
+			children = (
+				080E96DDFE201D6D7F000001 /* Classes */,
+				29B97315FDCFA39411CA2CEA /* Other Sources */,
+				29B97317FDCFA39411CA2CEA /* Resources */,
+				7BACBAB91211DE8E005E8F00 /* Sounds */,
+				29B97323FDCFA39411CA2CEA /* Frameworks */,
+				19C28FACFE9D520D11CA2CBB /* Products */,
+			);
+			name = CustomTemplate;
+			sourceTree = "<group>";
+		};
+		29B97315FDCFA39411CA2CEA /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				32CA4F630368D1EE00C91783 /* VioLine_Prefix.pch */,
+				29B97316FDCFA39411CA2CEA /* main.m */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		29B97317FDCFA39411CA2CEA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				976D391B15304BF600F14D6F /* logo.png */,
+				970B231A152C9152005D73FA /* bg.png */,
+				970B231B152C9152005D73FA /* bg@2x.png */,
+				97F2726C152A5C0D004CDD02 /* Icons */,
+				970B2330152C9690005D73FA /* MainWindow.xib */,
+				970B2332152C96D5005D73FA /* DemoViewController.xib */,
+				8D1107310486CEB800E47090 /* VioLine-Info.plist */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7BAA29951212691700BF4296 /* AudioToolbox.framework */,
+				288765A40DF7441C002DB57D /* CoreGraphics.framework */,
+				1D30AB110D05D00D00671497 /* Foundation.framework */,
+				7BAA29911212690D00BF4296 /* OpenAL.framework */,
+				7BAA29D912126BFA00BF4296 /* QuartzCore.framework */,
+				1DF5F4DF0D08C38300B7A737 /* UIKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7BACBAB91211DE8E005E8F00 /* Sounds */ = {
+			isa = PBXGroup;
+			children = (
+				97CF14411527AC46005F089C /* Violin */,
+			);
+			path = Sounds;
+			sourceTree = "<group>";
+		};
+		97CF14411527AC46005F089C /* Violin */ = {
+			isa = PBXGroup;
+			children = (
+				972F9CC6152DE26800374043 /* violin-c3.caf */,
+				972F9CC7152DE26800374043 /* violin-c4.caf */,
+				972F9CC8152DE26800374043 /* violin-c5.caf */,
+				972F9CC9152DE26800374043 /* violin-f3.caf */,
+				972F9CCA152DE26800374043 /* violin-f4.caf */,
+				972F9CDF152DEB9900374043 /* violin-f5.caf */,
+				972F9CCC152DE26800374043 /* violin-g2.caf */,
+				97CF143B1527AC06005F089C /* Violin.plist */,
+			);
+			name = Violin;
+			sourceTree = "<group>";
+		};
+		97F2726C152A5C0D004CDD02 /* Icons */ = {
+			isa = PBXGroup;
+			children = (
+				97F2726E152A5C17004CDD02 /* Icon-72.png */,
+				97F2726F152A5C17004CDD02 /* Icon-Small-50.png */,
+				97F27270152A5C17004CDD02 /* Icon-Small.png */,
+				97F27271152A5C17004CDD02 /* Icon-Small@2x.png */,
+				97F27272152A5C17004CDD02 /* Icon.png */,
+				97F27273152A5C17004CDD02 /* Icon@2x.png */,
+			);
+			name = Icons;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1D6058900D05DD3D006BFB54 /* VioLine */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "VioLine" */;
+			buildPhases = (
+				1D60588D0D05DD3D006BFB54 /* Resources */,
+				1D60588E0D05DD3D006BFB54 /* Sources */,
+				1D60588F0D05DD3D006BFB54 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = VioLine;
+			productName = Demo;
+			productReference = 1D6058910D05DD3D006BFB54 /* VioLine.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29B97313FDCFA39411CA2CEA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "VioLine" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+			);
+			mainGroup = 29B97314FDCFA39411CA2CEA /* CustomTemplate */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1D6058900D05DD3D006BFB54 /* VioLine */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1D60588D0D05DD3D006BFB54 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				97CF143F1527AC06005F089C /* Violin.plist in Resources */,
+				97F27274152A5C17004CDD02 /* Icon-72.png in Resources */,
+				97F27275152A5C17004CDD02 /* Icon-Small-50.png in Resources */,
+				97F27276152A5C17004CDD02 /* Icon-Small.png in Resources */,
+				97F27277152A5C17004CDD02 /* Icon-Small@2x.png in Resources */,
+				97F27278152A5C17004CDD02 /* Icon.png in Resources */,
+				97F27279152A5C17004CDD02 /* Icon@2x.png in Resources */,
+				970B231C152C9152005D73FA /* bg.png in Resources */,
+				970B231D152C9152005D73FA /* bg@2x.png in Resources */,
+				970B2331152C9690005D73FA /* MainWindow.xib in Resources */,
+				970B2333152C96D5005D73FA /* DemoViewController.xib in Resources */,
+				972F9CCE152DE26800374043 /* violin-c3.caf in Resources */,
+				972F9CCF152DE26800374043 /* violin-c4.caf in Resources */,
+				972F9CD0152DE26800374043 /* violin-c5.caf in Resources */,
+				972F9CD1152DE26800374043 /* violin-f3.caf in Resources */,
+				972F9CD2152DE26800374043 /* violin-f4.caf in Resources */,
+				972F9CD4152DE26800374043 /* violin-g2.caf in Resources */,
+				972F9CE0152DEB9900374043 /* violin-f5.caf in Resources */,
+				976D391C15304BF600F14D6F /* logo.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1D60588E0D05DD3D006BFB54 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D60589B0D05DD56006BFB54 /* main.m in Sources */,
+				1D3623260D0F684500981E51 /* DemoAppDelegate.m in Sources */,
+				28D7ACF80DDB3853001CB0EB /* DemoViewController.m in Sources */,
+				7BACBAB71211DE80005E8F00 /* OpenALSupport.c in Sources */,
+				7BACBAB81211DE80005E8F00 /* SoundBankPlayer.m in Sources */,
+				971FA15D152A31BA00C5C018 /* MusicologyView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1D6058940D05DD3E006BFB54 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = VioLine_Prefix.pch;
+				INFOPLIST_FILE = "VioLine-Info.plist";
+				PRODUCT_NAME = VioLine;
+				PROVISIONING_PROFILE = "";
+				RUN_CLANG_STATIC_ANALYZER = YES;
+				WARNING_CFLAGS = "-Wall";
+			};
+			name = Debug;
+		};
+		1D6058950D05DD3E006BFB54 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				"ARCHS[sdk=*]" = (
+					armv7,
+					armv6,
+				);
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = VioLine_Prefix.pch;
+				INFOPLIST_FILE = "VioLine-Info.plist";
+				PRODUCT_NAME = VioLine;
+				PROVISIONING_PROFILE = "";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
+				RUN_CLANG_STATIC_ANALYZER = YES;
+				VALIDATE_PRODUCT = YES;
+				WARNING_CFLAGS = "-Wall";
+			};
+			name = Release;
+		};
+		C01FCF4F08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 3.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		C01FCF5008A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 3.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "VioLine" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D6058940D05DD3E006BFB54 /* Debug */,
+				1D6058950D05DD3E006BFB54 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C01FCF4E08A954540054247B /* Build configuration list for PBXProject "VioLine" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4F08A954540054247B /* Debug */,
+				C01FCF5008A954540054247B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 29B97313FDCFA39411CA2CEA /* Project object */;
+}

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<string>32000</string>
+	<string>violin-g2</string>
+	<string>43</string>
+	<string>43</string>
+	<string>violin-c3</string>
+	<string>48</string>
+	<string>48</string>
+	<string>violin-f3</string>
+	<string>53</string>
+	<string>53</string>
+	<string>violin-c4</string>
+	<string>60</string>
+	<string>60</string>
+	<string>violin-f4</string>
+	<string>65</string>
+	<string>65</string>
+	<string>violin-c5</string>
+	<string>72</string>
+	<string>72</string>
+	<string>violin-f5</string>
+	<string>77</string>
+	<string>77</string>
+</array>
+</plist>
